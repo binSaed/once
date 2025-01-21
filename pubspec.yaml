@@ -4,13 +4,10 @@ version: 1.5.1
 homepage: https://github.com/MostafaSolimanMO/once
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.0.16
-  package_info_plus: ^3.0.2
-  
-dev_dependencies:
-  flutter_lints: ^1.0.0
+  shared_preferences: ^2.2.3
+  package_info_plus: ^8.0.0
